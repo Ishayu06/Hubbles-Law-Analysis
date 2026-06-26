@@ -1,195 +1,145 @@
-\# 🌌 Recreating Hubble's Law using Type Ia Supernovae
+# 🌌 Recreating Hubble's Law using Type Ia Supernovae
 
+A computational cosmology project that reconstructs **Hubble's Law** using observational **Type Ia Supernova** data from the **Pantheon+SH0ES** compilation.
 
-
-A Python-based cosmological data analysis project that reconstructs \*\*Hubble's Law\*\* using the \*\*Pantheon+SH0ES Type Ia Supernova dataset\*\*. The objective of this project is to estimate the \*\*Hubble Constant (H₀)\*\* through observational data analysis and visualize the expansion of the Universe.
-
-
+This project demonstrates how modern cosmological observations can be used to estimate the **Hubble Constant (H₀)** through numerical fitting and scientific visualization in Python.
 
 \---
 
+## Project Overview
 
+Edwin Hubble's discovery that galaxies recede from us at velocities proportional to their distances provided the first observational evidence that the Universe is expanding.
 
-\## Project Overview
-
-
-
-Hubble's Law describes the linear relationship between the recession velocity of galaxies and their distance from Earth. Modern cosmology estimates this relationship using observations of \*\*Type Ia Supernovae\*\*, which serve as standard candles for measuring cosmological distances.
-
-
-
-This notebook reproduces this analysis by loading observational supernova data, performing numerical fitting, and estimating the value of the Hubble constant.
-
-
+Today, this relationship is measured using **Type Ia Supernovae**, which act as standard candles for determining cosmological distances. This project reproduces that analysis by fitting observational data from the Pantheon+SH0ES dataset to estimate the Hubble Constant.
 
 \---
 
+## Objectives
 
-
-\## Dataset
-
-
-
-\*\*Pantheon+SH0ES\*\*
-
-
-
-The Pantheon+SH0ES compilation is one of the largest publicly available collections of Type Ia Supernova observations and is widely used in observational cosmology.
-
-
+* Load and preprocess observational supernova data
+* Construct the Hubble Diagram
+* Estimate the Hubble Constant (H₀)
+* Visualize the best-fit cosmological model
+* Demonstrate numerical data analysis techniques used in observational cosmology
 
 \---
 
+## Dataset
 
+**Pantheon+SH0ES Type Ia Supernova Compilation**
 
-\## Methodology
+The Pantheon+SH0ES dataset is one of the largest publicly available collections of Type Ia Supernova observations and is widely used in modern observational cosmology.
 
-
-
-The analysis consists of:
-
-
-
-\* Loading and preprocessing the Pantheon+SH0ES dataset
-
-\* Computing cosmological quantities required for fitting
-
-\* Performing numerical curve fitting using SciPy
-
-\* Constructing the Hubble Diagram
-
-\* Estimating the Hubble Constant (H₀)
-
-\* Visualizing the best-fit model
-
-
-
-\---
-
-
-
-\## Results
-
-
-
-\*\*Estimated Hubble Constant\*\*
-
-
-
-\[
-
-H\_0 = 69.52 \\pm 0.19\\ \\text{km s}^{-1}\\text{Mpc}^{-1}
-
-]
-
-
-
-The obtained value is consistent with modern observational estimates within the assumptions of the implemented cosmological model.
-
-
-
-\---
-
-
-
-\## Repository Structure
-
-
+Location:
 
 ```text
-
-Hubbles-Law-Analysis
-
-│
-
-├── data/
-
-│   └── Pantheon+SHOES.dat
-
-│
-
-├── notebooks/
-
-│   └── Hubbles\_Law\_Analysis.ipynb
-
-│
-
-├── figures/
-
-│
-
-├── README.md
-
-├── requirements.txt
-
-└── .gitignore
-
+data/Pantheon+SHOES.dat
 ```
 
+\---
 
+## Methodology
+
+The notebook performs the following workflow:
+
+1. Load the Pantheon+SH0ES dataset.
+2. Clean and preprocess the observational data.
+3. Compute the required cosmological quantities.
+4. Fit the observational data using SciPy.
+5. Estimate the Hubble Constant.
+6. Generate the Hubble Diagram.
 
 \---
 
+## Results
 
+### Estimated Hubble Constant
 
-\## Technologies Used
+**H₀ = 69.52 ± 0.19 km s⁻¹ Mpc⁻¹**
 
-
-
-\* Python
-
-\* NumPy
-
-\* Pandas
-
-\* SciPy
-
-\* Matplotlib
-
-\* Jupyter Notebook
-
-
+The estimated value is consistent with modern observational measurements within the assumptions of the implemented cosmological model.
 
 \---
 
+## Repository Structure
 
-
-\## Future Improvements
-
-
-
-\* Residual analysis
-
-\* χ² goodness-of-fit estimation
-
-\* Uncertainty propagation
-
-\* Comparison with ΛCDM cosmological models
-
-\* Additional visualization of cosmological parameters
-
-
+```text
+Hubbles-Law-Analysis
+│
+├── data/
+│   └── Pantheon+SHOES.dat
+│
+├── notebooks/
+│   └── Hubbles\_Law\_Analysis.ipynb
+│
+├── figures/
+│
+├── README.md
+├── .gitignore
+└── requirements.txt
+```
 
 \---
 
+## Technologies Used
 
+* Python
+* NumPy
+* Pandas
+* SciPy
+* Matplotlib
+* Jupyter Notebook
 
-\## Author
+\---
 
+## Running the Project
 
+1. Clone the repository.
 
-\*\*Ishayu Basu\*\*
+```bash
+git clone https://github.com/Ishayu06/Hubbles-Law-Analysis.git
+```
 
+2. Install the required Python libraries.
 
+```bash
+pip install numpy pandas matplotlib scipy jupyter
+```
+
+3. Open the notebook.
+
+```bash
+jupyter notebook
+```
+
+4. Run every cell in:
+
+```text
+notebooks/Hubbles\_Law\_Analysis.ipynb
+```
+
+\---
+
+## Future Improvements
+
+* χ² goodness-of-fit analysis
+* Residual analysis
+* Confidence interval estimation
+* Interactive visualizations
+* Comparison with alternative cosmological models
+
+\---
+
+## Author
+
+**Ishayu Basu**
 
 Electronics \& Instrumentation Engineering
-
 VIT Vellore
-
-
 
 Interested in Computational Astrophysics, Cosmology and Modified Gravity.
 
+\---
 
 
 
