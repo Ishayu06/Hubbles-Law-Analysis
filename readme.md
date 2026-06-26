@@ -4,7 +4,7 @@ A computational cosmology project that reconstructs **Hubble's Law** using obser
 
 This project demonstrates how modern cosmological observations can be used to estimate the **Hubble Constant (H₀)** through numerical fitting and scientific visualization in Python.
 
-\---
+
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ Edwin Hubble's discovery that galaxies recede from us at velocities proportional
 
 Today, this relationship is measured using **Type Ia Supernovae**, which act as standard candles for determining cosmological distances. This project reproduces that analysis by fitting observational data from the Pantheon+SH0ES dataset to estimate the Hubble Constant.
 
-\---
+
 
 ## Objectives
 
@@ -22,7 +22,7 @@ Today, this relationship is measured using **Type Ia Supernovae**, which act as 
 * Visualize the best-fit cosmological model
 * Demonstrate numerical data analysis techniques used in observational cosmology
 
-\---
+
 
 ## Dataset
 
@@ -36,7 +36,7 @@ Location:
 data/Pantheon+SHOES.dat
 ```
 
-\---
+
 
 ## Methodology
 
@@ -49,7 +49,7 @@ The notebook performs the following workflow:
 5. Estimate the Hubble Constant.
 6. Generate the Hubble Diagram.
 
-\---
+
 
 ## Results
 
@@ -59,7 +59,7 @@ The notebook performs the following workflow:
 
 The estimated value is consistent with modern observational measurements within the assumptions of the implemented cosmological model.
 
-\---
+
 
 ## Repository Structure
 
@@ -79,7 +79,7 @@ Hubbles-Law-Analysis
 └── requirements.txt
 ```
 
-\---
+
 
 ## Technologies Used
 
@@ -90,7 +90,7 @@ Hubbles-Law-Analysis
 * Matplotlib
 * Jupyter Notebook
 
-\---
+
 
 ## Running the Project
 
@@ -118,7 +118,7 @@ jupyter notebook
 notebooks/Hubbles\_Law\_Analysis.ipynb
 ```
 
-\---
+
 
 ## Future Improvements
 
@@ -128,7 +128,7 @@ notebooks/Hubbles\_Law\_Analysis.ipynb
 * Interactive visualizations
 * Comparison with alternative cosmological models
 
-\---
+
 
 ## Author
 
@@ -139,7 +139,7 @@ VIT Vellore
 
 Interested in Computational Astrophysics, Cosmology and Modified Gravity.
 
-\---
+
 
 
 
